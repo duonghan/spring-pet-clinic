@@ -5,7 +5,7 @@ package com.duonghv.springpetclinic.model;
  * Author: Duong Han
  **/
 
-public class Person {
+public class Person extends BaseEntity {
     private String firstName;
     private String lastName;
 

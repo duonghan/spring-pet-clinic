@@ -5,7 +5,7 @@ package com.duonghv.springpetclinic.model;
  * Author: Duong Han
  **/
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private String name;
 

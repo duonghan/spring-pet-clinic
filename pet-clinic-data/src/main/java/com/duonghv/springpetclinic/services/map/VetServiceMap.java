@@ -1,7 +1,7 @@
 package com.duonghv.springpetclinic.services.map;
 
 import com.duonghv.springpetclinic.model.Vet;
-import com.duonghv.springpetclinic.services.CrudService;
+import com.duonghv.springpetclinic.services.VetService;
 
 import java.util.Set;
 
@@ -10,7 +10,7 @@ import java.util.Set;
  * Author: Duong Han
  */
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
